@@ -1,0 +1,65 @@
+html {
+  font-size: 62.5%; /* 1rem is 10px */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  font-weight: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  margin-top: 2rem;
+  display: grid;
+  justify-items: center;
+}
+
+.plate {
+  height: 400px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bun {
+  width: 50px;
+  height: 15px;
+  background-color: tan;
+}
+
+.lettuce {
+  width: 58px;
+  height: 4px;
+  background-color: green;
+}
+
+.tomato {
+  width: 55px;
+  height: 5px;
+  background-color: red;
+}
+.cheese {
+  width: 56px;
+  height: 2px;
+  background-color: yellow;
+}
+
+.burger {
+  width: 55px;
+  height: 14px;
+  background-color: brown;
+}
